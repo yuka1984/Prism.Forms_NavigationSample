@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             Title="Content3"
+             x:Class="XFApp2.Views.Content3">
+  <StackLayout>
+    <Label Text="Content3ですよ"></Label>
+    <Button Text="Content1へ移動" Command="{Binding ToContent1Command}" />
+    
+  </StackLayout>
+</ContentPage>
